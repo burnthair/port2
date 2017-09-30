@@ -5,33 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
   <header>
     <nav>
-      <ul>
+      <ul class="hidden-links">
         <li><a href="#">top</a></li>
         <li><a href="#">about</a></li>
         <li><a href="#">links</a></li>
         <span class="initials">mve</span>
       </ul>
+      <img class="hamburger-hand" src="./img/three_fingers.svg" alt="">
+      <img class="hamburger-close" src="./img/point_up.svg" alt="">
+      <img class="to-the-top" src="./img/point_up.svg" alt="">
     </nav>
   </header>
+  <section class="landing-container">
+    <img id="name-hands" src="./img/name_hands.svg" alt="">
+  </section>
   <section class="skills-container">
-    <h2>SKILLS</h2>
-
+    <h2>SKILLS & UNDERSTANDINGS</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>AngularJS</li>
+      <li>Node.JS</li>
+      <li>PostgreSQL</li>
+    </ul>
+    <ul>
+      <li>WordPress</li>
+      <li>Inkscape</li>
+      <li>GIMP</li>
+      <li>SVG</li>
+      <li></li>
+      <li></li>
+    </ul>
   </section>
   <section class="demo-container">
     <h2>DEMONSTRATION</h2>
-    <h3><a href="" target="_blank">here is a fancy stopwatch.</a></h3>
+    <h3><a href="http://jsfiddle.net/burnthair/25k3zh6j/94/" target="_blank">here</a> is a fancy stopwatch.</h3>
     <p>i made it from HTML, CSS, and plain ol' vanilla JavaScript.</p>
-    <h3><a href="https://hartlandrobotics.org/" target="_blank">here is a fine Wordpress site.</a></h3>
-    <p>i worked with a <a href="https://www.annarborgivecamp.org/" target="_blank">team of nice people</a> to help out Hartland Robotics with a Wordpress site.</p>
+    <h3><a href="http://hartlandrobotics.org/" target="_blank">here</a> is a fine Wordpress site.</h3>
+    <p>i worked with a <a href="http://www.annarborgivecamp.org/" target="_blank">team of nice people</a> to help out Hartland Robotics with a Wordpress site.</p>
   </section>
-  <section>
-    <h2>INTERESTS</h2>
+  <section class="personal-container">
+    <h2>PERSONAL</h2>
+    <img id="head-shot" src="./img/mve01.png" alt="">
+    <p>i came in third place in my fantasy baseball league this year.</p>
+    <p>i'm currently fascinated by <a href="">p5.js</a>, <a href="#">matter.js</a>, <a href="#">anime.js</a>, and <a href="#">three.js</a>.</p>
+    <p>i made all this <a href="#">music</a>.</p>
   </section>
+  <footer>
+    <img id="head-outline" src="./img/mve_head_outline.svg" alt="">
+    <span>that's all i got</span>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
