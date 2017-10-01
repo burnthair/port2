@@ -39,10 +39,13 @@ body {
 }
 
 nav {
+	padding: 20px;
+	color: #fa9a8b;
+	width: 100%;
+	box-sizing: border-box;
 	max-width: 100%;
 	height: auto;
 	overflow-x: hidden;
-	background-color: #888;
 }
 
 nav ul, nav li {
@@ -54,15 +57,25 @@ nav ul, nav li {
 nav ul {
 	text-align: center;
 	position: absolute;
-	top: -100px;
+	top: -200px;
 	transition: all 0.3s;
+}
+
+nav li {
+	font-size: 2rem;
+	margin: 10px 0;
+	background-color: #888;
+}
+
+.initials {
+	display: none;
 }
 
 .hamburger-hand {
 	position: relative;
   left: 80%;
   top: 0;
-  width: 20%;
+  width: 22%;
 	transition: all 0.3s;
 }
 
@@ -99,7 +112,7 @@ nav ul {
 }
 
 h2, p {
-	margin: 1rem 0;
+	margin: 2rem 0;
 }
 
 a {
@@ -116,13 +129,6 @@ a:visited {
 
 a:focus a:hover {
 
-}
-
-nav {
-  padding: 20px;
-  color: #fa9a8b;
-	width: 100%;
-	box-sizing: border-box;
 }
 
 h2 {
